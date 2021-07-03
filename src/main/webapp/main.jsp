@@ -40,6 +40,7 @@
 
 <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
+<!-- ¸ÞÀÎ¹Ù -->
 <body data-spy="scroll" data-target=".navbar-collapse">
 	<!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -57,7 +58,8 @@
 								<div class="container-fluid">
 									<!-- Brand and toggle get grouped for better mobile display -->
 									<div class="navbar-header">
-										<button type="button" class="navbar-toggle collapsed"
+										<button type="button" class
+										="navbar-toggle collapsed"
 											data-toggle="collapse"
 											data-target="#bs-example-navbar-collapse-1"
 											aria-expanded="false">
@@ -180,7 +182,7 @@
 					</div>
 				</div>
 			</div>
-		</footer>s
+		</footer>
 	</div>
 
 	<!-- START SCROLL TO TOP  -->

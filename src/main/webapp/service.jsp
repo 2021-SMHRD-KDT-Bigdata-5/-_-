@@ -39,77 +39,164 @@ style.css">
 <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse">
-	<header id="main_menu" class="header navbar-fixed-top">
-	<div class='preloader'><div class='loaded'>&nbsp;</div></div>
-        <div class="culmn">
-		<div class="main_menu_bg">
-			<div class="container">
-				<div class="row">
-					<div class="nave_menu">
-						<nav class="navbar navbar-default">
-							<div class="container-fluid">
-								<!-- Brand and toggle get grouped for better mobile display -->
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed"
-										data-toggle="collapse"
-										data-target="#bs-example-navbar-collapse-1"
-										aria-expanded="false">
-										<!-- <span class="sr-only">Toggle navigation</span> <span
-											class="icon-bar"></span> <span class="icon-bar"></span> <span
-											class="icon-bar"></span> -->
-									</button>
-									<a class="navbar-brand" href="#home"> <img
-										src="assets/images/logo.png" />
-									</a>
-								</div>
-
-								<!-- Collect the nav links, forms, and other content for toggling -->
-
-
-
-								<div class="collapse navbar-collapse"
-									id="bs-example-navbar-collapse-1">
-
-									<ul class="nav navbar-nav navbar-right">
-										<li><a href="#home">Home</a></li>
-										<li><a href="#about"></a></li>
-										<li><a href="#service">Service</a></li>
-										<li><a href="#portfolio">Portfolio</a></li>
-										<li><a href="#blog">Blog</a></li>
-										<li><a href="#contact">Contact</a></li>
-										<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-
-
-										<li><a href="#" data-toggle="dropdown" role="button"
-											aria-haspopup="true" aria-expanded="false"> <i
-												class="fa fa-search"></i>
+<div class='preloader'>
+		<div class='loaded'>&nbsp;</div>
+	</div>
+<div class="culmn">
+		<header id="main_menu" class="header navbar-fixed-top">
+			<div class="main_menu_bg">
+				<div class="container">
+					<div class="row">
+						<div class="nave_menu">
+							<nav class="navbar navbar-default">
+								<div class="container-fluid">
+									<!-- Brand and toggle get grouped for better mobile display -->
+									<div class="navbar-header">
+										<button type="button" class
+										="navbar-toggle collapsed"
+											data-toggle="collapse"
+											data-target="#bs-example-navbar-collapse-1"
+											aria-expanded="false">
+											<span class="sr-only">Toggle navigation</span> <span
+												class="icon-bar"></span> <span class="icon-bar"></span> <span
+												class="icon-bar"></span>
+										</button>
+										<a class="navbar-brand" href="#home"> <img
+											src="assets/images/logo.png" />
 										</a>
-											<ul class="dropdown-menu">
-												<li>
-													<form class="navbar-form" role="search">
-														<div class="form-group">
-															<input type="text" class="form-control"
-																placeholder="Search">
-														</div>
-													</form>
-												</li>
-											</ul></li>
-									</ul>
+									</div>
 
+									<!-- Collect the nav links, forms, and other content for toggling -->
+
+
+
+									<div class="collapse navbar-collapse"
+										id="bs-example-navbar-collapse-1">
+
+										<ul class="nav navbar-nav navbar-right">
+											<li><a href="#home">Home</a></li>
+											<li><a href="#about">about</a></li>
+											<li><a href="service.jsp">Service</a></li>
+											<li><a href="#portfolio">Portfolio</a></li>
+											<li><a href="#blog">Blog</a></li>
+											<li><a href="#contact">Contact</a></li>
+											<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+
+
+											<li><a href="#" data-toggle="dropdown" role="button"
+												aria-haspopup="true" aria-expanded="false"> <i
+													class="fa fa-search"></i>
+											</a>
+												<ul class="dropdown-menu">
+													<li>
+														<form class="navbar-form" role="search">
+															<div class="form-group">
+																<input type="text" class="form-control"
+																	placeholder="Search">
+															</div>
+														</form>
+													</li>
+												</ul></li>
+										</ul>
+
+
+									</div>
 
 								</div>
-
-							</div>
-						</nav>
+							</nav>
+						</div>
 					</div>
+
 				</div>
 
 			</div>
+		</header>
+		<!--End of header -->
 
-		</div>
-	</header>
-	<!--End of header -->
-</div>
+		<section id="home" class="home">
+			<div class="overlay all_overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 ">
+							<div class="main_home_slider text-center">
+									<div class="main_home wow fadeInUp" data-wow-duration="700ms">
+										<!-- <h4>Creative Template</h4>
+										<h1>Welcome to MoGo</h1> -->
+
+										<div class="whiteseparator"></div>
+										<!-- <div class="home_btn">
+											<a href="" class="btn btn-primary">LEARN MORE</a>
+										</div> -->
+
+									</div>
+								</div>
+								<div class="single_home_slider">
+									<div class="main_home wow fadeInUp" data-wow-duration="700ms">
+										<!-- <h4>Creative Template</h4>
+										<h1>Welcome to MoGo</h1> -->
+										<div class="whiteseparator"></div>
+
+										<!-- <div class="home_btn">
+											<a href="" class="btn btn-primary">LEARN MORE</a>
+										</div> -->
+
+									</div>
+								</div>
+								<div class="single_home_slider">
+									<div class="main_home wow fadeInUp" data-wow-duration="700ms">
+										<!-- <h4>Creative Template</h4>
+										<h1>Welcome to MoGo</h1> -->
+										<div class="whiteseparator"></div>
+									<!-- 	<div class="home_btn">
+											<a href="" class="btn btn-primary">LEARN MORE</a>
+										</div> -->
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer" class="footer">
+			<div class="container">
+				<div class="main_footer text-center">
+					<div class="row">
+						<div class="col-sm-12 col-xs-12">
+							<div class="copyright_text">
+								<p class=" wow fadeInRight" data-wow-duration="1s">
+									Made with <i class="fa fa-heart"></i> by <a
+										href="http://bootstrapthemes.co">Bootstrap Themes</a>2016. All
+									Rights Reserved
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+	
+	<!-- 스크롤 -->
+		<div class="scrollup">
+		<a href="#"><i class="fa fa-chevron-up"></i></a>
+	</div>
+
+	<script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+	<script src="assets/js/jquery.mixitup.min.js"></script>
+	<script src="assets/js/jquery.easing.1.3.js"></script>
+	<script src="assets/js/jquery.masonry.min.js"></script>
+	<script src="assets/js/jquery.fancybox.pack.js"></script>
+	<!--This is link only for gmaps-->
+	<script src="http://maps.google.com/maps/api/js"></script>
+	<script src="assets/js/gmaps.min.js"></script>
+
 
 <div class="overlay all_overlay">
 				<div class="container">
@@ -156,6 +243,7 @@ style.css">
 					</div>
 				</div>
 			</div>
+			<!-- about part  -->
 	<div class="container">
 		<div class="row">
 
@@ -174,6 +262,7 @@ style.css">
 
 
 					<div class="main_about_content">
+					<!-- 첫번째 사진 -->
 						<div class="col-sm-4 col-xs-12">
 							<div class="single_about">
 								<div class="single_about_img">
@@ -185,6 +274,7 @@ style.css">
 								</div>
 							</div>
 						</div>
+						<!-- 두번째 사진 -->
 						<div class="col-sm-4 col-xs-12">
 							<div class="single_about">
 								<div class="single_about_img">
@@ -196,6 +286,7 @@ style.css">
 								</div>
 							</div>
 						</div>
+						<!-- 세번째사진 -->
 						<div class="col-sm-4 col-xs-12">
 							<div class="single_about">
 								<div class="single_about_img">
@@ -307,41 +398,5 @@ style.css">
 			</div>
 		</div>
 	</div>
-
-	<div class="scrollup">
-		<a href="#"><i class="fa fa-chevron-up"></i></a>
-	</div>
-
-	<script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-	<script src="assets/js/vendor/bootstrap.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-
-	<script src="assets/js/jquery.mixitup.min.js"></script>
-	<script src="assets/js/jquery.easing.1.3.js"></script>
-	<script src="assets/js/jquery.masonry.min.js"></script>
-	<script src="assets/js/jquery.fancybox.pack.js"></script>
-	<!--This is link only for gmaps-->
-	<script src="http://maps.google.com/maps/api/js"></script>
-	<script src="assets/js/gmaps.min.js"></script>
-
-
-	<script>
-
-                                            function showmap() {
-                                                var mapOptions = {
-                                                    zoom: 8,
-                                                    scrollwheel: false,
-                                                    center: new google.maps.LatLng(-34.397, 150.644),
-                                                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                                                };
-                                                var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-                                            }
-
-        </script>
-
-
-	<script src="assets/js/plugins.js"></script>
-	<script src="assets/js/main.js"></script>
-
 </body>
 </html>
